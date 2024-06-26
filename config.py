@@ -20,13 +20,13 @@ BOT_USERNAME = getenv("BOT_USERNAME" , Kyouko_XMusic_Proxbot)
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , Kyouko X Music)
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Izumi_miyamura38")
+ASSUSERNAME = getenv("ASSUSERNAME" , Izumi_miyamura38)
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("mongodb+srv://senpai:TheChampu@database.q6zl7gt.mongodb.net/?retryWrites=true&w=majority&appName=database", None)
+MONGO_DB_URI = getenv(mongodb+srv://senpai:TheChampu@database.q6zl7gt.mongodb.net/?retryWrites=true&w=majority&appName=database, None)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", --1002087696194))
+LOGGER_ID = int(getenv(LOGGER_ID, --1002087696194))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6935797907))
+OWNER_ID = int(getenv(OWNER_ID, 6935797907))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
